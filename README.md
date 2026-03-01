@@ -27,7 +27,7 @@ repo sync --force-sync -j8 #Or -j$(nproc --all) -- This take a while, I  did it 
 apply-waydroid-patches
 # Feel free to ignore the Vendor-add-more-build-types conflict.
 
-lunch # and select which build you want.
+lunch # and select which build you want. Like lineage_waydroid_(arch)_variant
 
 # Finally Build.
 make systemimage -j$(nproc --all) # Took me 2hrs
